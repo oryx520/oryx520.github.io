@@ -17,16 +17,19 @@ export default function Home() {
       <Fade delay={1600}>I&#39;ve worked at: </Fade>
       <div className="pt-2 ml-2 text-sm pb-8">
               <Fade delay={2400}>
-                <li>Graphistry Inc., AI Engineering Intern</li>
+                <li>Unto Labs, Software Intern</li>
               </Fade>
               <Fade delay={2500}>
-              <li><a href="https://mila.quebec/en/directory/jian-tang" target="_blank">MILA - Quebec AI Insitute</a>, Research Intern under Dr. Jian Tang</li>
+                <li>Graphistry Inc., AI/Cybersecurity Intern</li>
               </Fade>
               <Fade delay={2600}>
-                <li>CORESPEQ Inc., Software Engineering Intern</li>
+              <li>MILA - Quebec AI Insitute, Research Intern under <a href="https://mila.quebec/en/directory/jian-tang" target="_blank">Dr. Jian Tang</a></li>
               </Fade>
               <Fade delay={2700}>
-                <li>University of British Columbia, Research Intern under Dr. Chunping Dai</li>
+                <li>CORESPEQ Inc., Software Intern</li>
+              </Fade>
+              <Fade delay={2800}>
+                <li>University of British Columbia, Research Intern under <a href="https://forestry.ubc.ca/faculty-profile/chunping-dai/" target="_blank">Dr. Chunping Dai</a></li>
               </Fade>
       </div>
       {/* <Fade delay={3800}>
